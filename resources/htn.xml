@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImplementationGuide xmlns="http://hl7.org/fhir">
+    <id value="htn-0.1.0"/>
+    <url value="http://www.ohsu.edu/fhir/htn/ImplementationGuide/htn-0.1.0"/>
+    <version value="0.1.0"/>
+    <name value="HTN"/>
+		<title value="Hypertension Management"/>
+    <status value="draft"/>
+    <experimental value="false"/>
+    <date value="2019-10-29"/>
+    <publisher value="Oregon Health and Science University"/>
+    <contact>
+      <telecom>
+        <system value="url"/>
+        <value value="http://www.ohsu.edu"/>
+      </telecom>
+    </contact>
+    <description value="Implementation guidance for provider- and patient-facing decision support for the management of chronic hypertension"/>
+		<packageId value="ohsu.fhir.htn"/>
+		<license value="CC0-1.0"/>
+    <fhirVersion value="4.0.0"/>
+    <definition>
+			<grouping id="main">
+        <name value="Main"/>
+			</grouping>
+    </definition>
+</ImplementationGuide>

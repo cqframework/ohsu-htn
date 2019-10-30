@@ -1,0 +1,42 @@
+{
+  "canonicalBase": "http://www.ohsu.edu/fhir/htn",
+  "version" : "4.0.0",
+  "fixed-business-version": "0.1.0",
+  "sct-edition" : "http://snomed.info/sct/731000124108",
+  "source": "htn.xml",
+  "jurisdiction": "001",
+  "npm-name": "ohsu.fhir.htn",
+  "license": "CC0-1.0",
+  "tool" : "jekyll",
+  "paths": {
+    "resources": [ 
+			"resources"
+		],
+    "pages": "pages",
+    "temp": "temp",
+    "output": "output",
+    "qa": "qa",
+    "specification": "http://hl7.org/fhir/R4/",
+		"history": "http://www.ohsu.edu/fhir/htn/history.html"
+  },
+  "defaults": {
+    "Any": {
+      "template-format": "templates/instance-template-format.html",
+      "template-base": "templates/instance-template-base.html"
+    },
+    "StructureDefinition" : {
+      "template-base": "templates/instance-template-sd.html",
+      "template-mappings": "templates/instance-template-sd-mappings.html",
+      "template-defns": "templates/instance-template-sd-definitions.html"
+    }
+  },
+  "logging": [ "init", "progress", "context", "html", "tx" ],
+  "suppressedWarningFile": "suppressed-messages.txt",
+  "extraTemplates": [
+    "mappings"
+  ],
+  "spreadsheets": [
+  ],
+  "resources": {
+  }
+}
